@@ -1,0 +1,139 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #f3f5fc;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+.tittle{
+    float: inherit;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0a3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+}
+
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0a3871;
+    width: 80%;
+    height: 252;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 15px;
+    border-radius: 14px;
+}
+
+#btn-encriptar{
+    border-style: solid;
+    padding: 24px;
+    width: 15%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0a3871;
+}
+
+#btn-desencriptar{
+    border-style: solid;
+    padding: 24px;
+    width: 18%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #d8dfe8;
+}
+
+#btn-copiar{
+    border-style: solid;
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 30%;
+    height: 10%;
+    background: #d8dfe8;
+    border-radius: 24px;
+    display: none;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #d8dfe8;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: height 0.3s ease-out;
+}
+
+.exclamation{
+    width: 12px;
+}

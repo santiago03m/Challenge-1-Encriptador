@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="shortcut icon" href="images/key-solid.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge #1: Encriptador</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="images/Logo-1.png">
+            <h1 class="tittle">Encriptador</h1>
+        </div>
+        <div class="left">
+            <input type="text" id="inputTexto" class="text-input" placeholder="Ingrese el texto aqui">
+
+        </div>
+        <div class="right">
+            <img src="images/Muñeco.png" id="imgDer">
+            <h1 id="texto">Ningun mensaje fue encontrado</h1>
+            <textarea readonly name="name" id="texto2" cols="80" rows="8">Ingresa el texto que deseas encriptar o desencriptar</textarea>
+            <button id="btn-copiar" class="copiar">
+                Copiar!
+            </button>
+        </div>
+        <div class="left-button">
+            <p><img src="images/circle-exclamation-solid.svg" class="exclamation" alt=""> Solo letras minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar">Encriptar</button>
+            <button type="button" id="btn-desencriptar">Desencriptar</button>
+        </div>
+    </div>
+</body>
+</html>
